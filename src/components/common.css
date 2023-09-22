@@ -1,0 +1,304 @@
+.header{
+   display: flex;
+   padding: 12px 15px;
+   align-items: center;
+   background: rgb(255, 255, 255);
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.151);
+   position: sticky;
+   top: 0;
+   left: 0;
+   width: 100%;
+  
+}
+
+.h1{
+    background: #ffffff; 
+    width: 30%;
+    
+
+}
+.hi1{
+    width: 210px;
+    position: relative;
+    top: 3px;
+    background: #ffffff;
+}
+
+
+
+.h2{
+    width: 70%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h21{
+    display: flex;
+width: 50%;
+text-align: center;
+justify-content: center;
+background: #ffffff;
+
+}
+
+ul{
+    display: flex;
+  
+    
+}
+a{
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.703);
+    
+}
+
+li{
+    background: #ffffff;
+    padding: 0px 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.h22{
+    background: #ffffff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+.i1{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    
+    background: #ffffff;
+    width: 300px;
+}
+.i1Res{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    
+    background: #ffffff;
+    width: 240px;
+}
+
+.i2{
+    padding: 4px 8px;
+    font-size: 15px;
+    border: 0.3px solid rgba(0, 0, 0, 0.364);
+    border-radius: 5px;
+    background: #ffffff;
+    width: 300px;
+}
+.active{
+    color: rgb(145, 67, 218);
+    font-weight: 500;
+}
+
+.hamburger{
+    background: #ffffff;
+    margin-left: 15px;
+    display: none;
+}
+
+.search{
+    display: none;
+}
+
+.h3{
+    display: flex;
+    margin: 15px 10px;
+    align-items: center;
+}
+.closeh{
+    margin-left: 5px;
+
+}
+
+
+
+.card{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   width: 211.5px;
+   background: white;
+   padding-bottom: 15px;
+    border: 0.5px solid rgba(0, 0, 0, 0.492);
+    margin: 15px;
+    
+}
+
+.movieName{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(20, 10, 128);
+    padding: 6px;
+    background: white;
+}
+
+.im1{
+    width: 210px;
+    height: 270px;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+.im2{
+
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  
+}
+
+.ov1{
+    padding: 0px 7px;
+    font-size: 14px;
+   background: white;
+}
+
+
+.h2inp{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 0px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.h2inps{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 0px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ss1{
+    background: #ffffff;
+    position: relative;
+    top: 2px;
+    margin: 0px 6px;
+}
+.bs1{
+    background: #ffffff;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.bs1:hover{
+    color: rgb(126, 38, 209);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .h1{
+        width: 100%;
+        
+    }
+    .h2{
+        justify-content: end;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+
+    .h21{
+        display: none;
+    }
+    .h21s{
+        position: absolute;
+        top: 65px;
+        height: 130px;
+        border-radius: 5px;
+        flex-direction: column;
+        right: -80px;
+        width: 200px;
+       display: block;
+    }
+
+    ul{
+        flex-direction: column;
+        position: absolute;
+       
+      
+    }
+
+    li{
+        text-align: left;
+        padding: 3px 10px;
+        padding-right: 20px;
+    }
+    .hi1{
+        width: 190px;
+    }
+    .search{
+        display: block;
+        background: #ffffff;
+    }
+    .i1{
+        display: none;
+        background: #ffffff;
+    }
+    .h2inp{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .card{
+        width: 271.5px;
+    }
+    .im1{
+        width: 270px;
+        height: 350px;
+        border-radius: 10px 10px 0px 0px;
+        overflow: hidden;
+    }
+}

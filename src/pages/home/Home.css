@@ -1,0 +1,22 @@
+.maxHome{
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.searchResult{
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+.sres1{
+    color: rgb(125, 38, 207);
+    font-weight: 500;
+}
