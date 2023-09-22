@@ -21,6 +21,7 @@ export const Search = () => {
   return (
     <>
     <div className='searchResult'>
+      {!movie && <p>No results found for <span className='sres1'> {qTerm}</span></p> }
     {movie && movie.length > 0 ? <p>Search Results for : <span className='sres1'> {qTerm}</span></p> : <p>No results found for <span className='sres1'> {qTerm}</span></p>}
     </div>
     

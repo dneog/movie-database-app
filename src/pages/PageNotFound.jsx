@@ -8,11 +8,8 @@ export const PageNotFound = () => {
   }
   return (
     <div className='pnfs'>
-     <h2 className='pngh'>404 Page Not Found</h2> 
-     
-     <button onClick={handleClick} className='pnfb'>Back to Home</button>
-     
-     
+     <h2 className='pngh'>404 Page Not Found</h2>  
+     <button onClick={handleClick} className='pnfb'>Back to Home</button>  
       </div>
   )
 }

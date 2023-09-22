@@ -12,7 +12,6 @@ export const MovieDetails = () => {
     async function Movies(){
      
         const response= await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=b3aca5b263e23ef3f49fac80733d9671`)
-
         const data= await response.json()
         setMovie(data) 
         setGenres(data.genres)
@@ -47,14 +46,10 @@ export const MovieDetails = () => {
     <div className='details'>
       <div className='d1'>
       <img className='di1' src={`https://image.tmdb.org/t/p/original${movie.poster_path}`} alt="poster" />
-
-
       </div>
 
       <div className='d2'>
         <h3 className='d21'>{movie.title}</h3>
-        
-        
         <div className='d222'>
         {genres.map((g)=> (
           <p>{g.name}  &nbsp;</p>
@@ -86,8 +81,6 @@ export const MovieDetails = () => {
         <p className='d23'>Revenue</p>
         <p>${movie.revenue}</p>
         
-       
-       
       </div>
 
     </div>

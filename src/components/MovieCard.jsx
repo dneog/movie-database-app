@@ -21,7 +21,6 @@ const MovieCard = ({item}) => {
   return (
     
     <div className='card'>
-     
      <div className='im1'>
      <Link to={`/movieDetails/${item.id}`}>
     <img className='im2' src={`https://image.tmdb.org/t/p/original${item.poster_path}`} alt="move-poster" />
@@ -32,14 +31,6 @@ const MovieCard = ({item}) => {
         <h3 className='movieName'>{item.title}</h3>
         </Link>
         <p className='ov1'>{convertDate(item.release_date)}</p>
-      
-       
-     
-     
-      
-      
-      
-    
     </div>
     
   )
